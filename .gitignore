@@ -1,0 +1,18 @@
+# Xcode
+xcuserdata/
+*.xcuserstate
+*./xcworkspace/xcuserdata/
+project.xcworkspace/xcuserdata/
+
+# Swift Package Manager
+.build/
+Packages/
+
+# macOS
+.DS_Store
+
+# Build Folders
+build/
+DerivedData/
+
+#GoogleService-Info.plist

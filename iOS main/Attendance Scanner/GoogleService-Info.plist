@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyDGRcnwV2C8pxZ_ElaAwWBiwbMtWuIQMBs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>172656469577</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>io.skurtdev.AttendEase</string>
+	<key>PROJECT_ID</key>
+	<string>attendease-ios</string>
+	<key>STORAGE_BUCKET</key>
+	<string>attendease-ios.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:172656469577:ios:e14553a00a7fca3aca8198</string>
+</dict>
+</plist>
