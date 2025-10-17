@@ -30,24 +30,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B07E45692EA1C28900905B7F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		B07E456B2EA1C62A00905B7F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		B07E456C2EA1C67300905B7F /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
-		B07E456D2EA1C75700905B7F /* Enrollment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enrollment.swift; sourceTree = "<group>"; };
-		B07E456E2EA1C77C00905B7F /* AttendanceRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceRecord.swift; sourceTree = "<group>"; };
-		B07E456F2EA1C7AB00905B7F /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
-		B07E45702EA1C7F300905B7F /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
-		B07E45712EA1C82900905B7F /* NFCService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCService.swift; sourceTree = "<group>"; };
-		B07E45722EA1C86400905B7F /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
-		B07E45752EA1CC0200905B7F /* ProfessorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorViewModel.swift; sourceTree = "<group>"; };
-		B07E45772EA1CC5600905B7F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		B07E45782EA1CC6400905B7F /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
-		B07E45792EA1CCA000905B7F /* StudentHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentHomeView.swift; sourceTree = "<group>"; };
-		B07E457A2EA1CCBE00905B7F /* AttendanceHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceHistoryView.swift; sourceTree = "<group>"; };
-		B07E457B2EA1CDDF00905B7F /* ProfessorHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorHomeView.swift; sourceTree = "<group>"; };
-		B07E457C2EA1CE0900905B7F /* CreateCourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCourseView.swift; sourceTree = "<group>"; };
-		B07E457D2EA1CE6A00905B7F /* AttendanceReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceReportView.swift; sourceTree = "<group>"; };
-		B07E45852EA1D2A100905B7F /* StudentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViewModel.swift; sourceTree = "<group>"; };
 		B07FD11A2CF5172C00CCC338 /* Attendance Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Attendance Scanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B07FD12B2CF5172E00CCC338 /* Attendance ScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Attendance ScannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B07FD1352CF5172E00CCC338 /* Attendance ScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Attendance ScannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,83 +81,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B07E45602EA1C21B00905B7F /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				B07E45692EA1C28900905B7F /* Constants.swift */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		B07E45612EA1C22100905B7F /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				B07E456E2EA1C77C00905B7F /* AttendanceRecord.swift */,
-				B07E456D2EA1C75700905B7F /* Enrollment.swift */,
-				B07E456C2EA1C67300905B7F /* Course.swift */,
-				B07E456B2EA1C62A00905B7F /* User.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		B07E45632EA1C23600905B7F /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				B07E45712EA1C82900905B7F /* NFCService.swift */,
-				B07E45702EA1C7F300905B7F /* FirestoreService.swift */,
-				B07E456F2EA1C7AB00905B7F /* AuthService.swift */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		B07E45642EA1C24200905B7F /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				B07E45852EA1D2A100905B7F /* StudentViewModel.swift */,
-				B07E45752EA1CC0200905B7F /* ProfessorViewModel.swift */,
-				B07E45722EA1C86400905B7F /* AuthViewModel.swift */,
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		B07E45652EA1C24800905B7F /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				B07E45682EA1C26C00905B7F /* Auth */,
-				B07E45672EA1C26400905B7F /* Professor */,
-				B07E45662EA1C25F00905B7F /* Student */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		B07E45662EA1C25F00905B7F /* Student */ = {
-			isa = PBXGroup;
-			children = (
-				B07E457A2EA1CCBE00905B7F /* AttendanceHistoryView.swift */,
-				B07E45792EA1CCA000905B7F /* StudentHomeView.swift */,
-			);
-			path = Student;
-			sourceTree = "<group>";
-		};
-		B07E45672EA1C26400905B7F /* Professor */ = {
-			isa = PBXGroup;
-			children = (
-				B07E457D2EA1CE6A00905B7F /* AttendanceReportView.swift */,
-				B07E457C2EA1CE0900905B7F /* CreateCourseView.swift */,
-				B07E457B2EA1CDDF00905B7F /* ProfessorHomeView.swift */,
-			);
-			path = Professor;
-			sourceTree = "<group>";
-		};
-		B07E45682EA1C26C00905B7F /* Auth */ = {
-			isa = PBXGroup;
-			children = (
-				B07E45782EA1CC6400905B7F /* RegisterView.swift */,
-				B07E45772EA1CC5600905B7F /* LoginView.swift */,
-			);
-			path = Auth;
-			sourceTree = "<group>";
-		};
 		B07E457E2EA1D02F00905B7F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,11 +91,6 @@
 		B07FD1112CF5172C00CCC338 = {
 			isa = PBXGroup;
 			children = (
-				B07E45652EA1C24800905B7F /* Views */,
-				B07E45642EA1C24200905B7F /* ViewModels */,
-				B07E45632EA1C23600905B7F /* Services */,
-				B07E45612EA1C22100905B7F /* Models */,
-				B07E45602EA1C21B00905B7F /* Utils */,
 				B07FD11C2CF5172C00CCC338 /* Attendance Scanner */,
 				B07FD12E2CF5172E00CCC338 /* Attendance ScannerTests */,
 				B07FD1382CF5172E00CCC338 /* Attendance ScannerUITests */,
