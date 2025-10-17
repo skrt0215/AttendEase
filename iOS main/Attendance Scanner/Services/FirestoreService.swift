@@ -115,7 +115,10 @@ class FirestoreService {
             .whereField("status", isEqualTo: "active")
             .getDocuments()
         
-        return snapshot.documents.compactMap { try? $0.data(as: Enrollment.self)?.studentID }
+        return snapshot.documents.compactMap { document in
+            guard let enrollment = try? document.data(as: Enrollment.self) else { return nil }
+            return enrollment.studentID
+        }
     }
     
     func fetchCourse(byID courseID: String) async throws -> Course? {
