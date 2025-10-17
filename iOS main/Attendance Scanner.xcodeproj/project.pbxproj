@@ -25,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		B07E45692EA1C28900905B7F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B07E456B2EA1C62A00905B7F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B07FD11A2CF5172C00CCC338 /* Attendance Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Attendance Scanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B07FD12B2CF5172E00CCC338 /* Attendance ScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Attendance ScannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B07FD1352CF5172E00CCC338 /* Attendance ScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Attendance ScannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +85,7 @@
 		B07E45612EA1C22100905B7F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B07E456B2EA1C62A00905B7F /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
