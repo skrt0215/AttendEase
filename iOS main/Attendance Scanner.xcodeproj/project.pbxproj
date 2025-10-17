@@ -31,6 +31,7 @@
 		B07E456E2EA1C77C00905B7F /* AttendanceRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceRecord.swift; sourceTree = "<group>"; };
 		B07E456F2EA1C7AB00905B7F /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		B07E45702EA1C7F300905B7F /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
+		B07E45712EA1C82900905B7F /* NFCService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCService.swift; sourceTree = "<group>"; };
 		B07FD11A2CF5172C00CCC338 /* Attendance Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Attendance Scanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B07FD12B2CF5172E00CCC338 /* Attendance ScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Attendance ScannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B07FD1352CF5172E00CCC338 /* Attendance ScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Attendance ScannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +102,7 @@
 		B07E45632EA1C23600905B7F /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				B07E45712EA1C82900905B7F /* NFCService.swift */,
 				B07E45702EA1C7F300905B7F /* FirestoreService.swift */,
 				B07E456F2EA1C7AB00905B7F /* AuthService.swift */,
 			);
