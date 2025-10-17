@@ -39,7 +39,6 @@
 		B07E45702EA1C7F300905B7F /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
 		B07E45712EA1C82900905B7F /* NFCService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCService.swift; sourceTree = "<group>"; };
 		B07E45722EA1C86400905B7F /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
-		B07E45742EA1C8A100905B7F /* StudentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViewModel.swift; sourceTree = "<group>"; };
 		B07E45752EA1CC0200905B7F /* ProfessorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorViewModel.swift; sourceTree = "<group>"; };
 		B07E45772EA1CC5600905B7F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		B07E45782EA1CC6400905B7F /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
@@ -132,7 +131,6 @@
 			isa = PBXGroup;
 			children = (
 				B07E45752EA1CC0200905B7F /* ProfessorViewModel.swift */,
-				B07E45742EA1C8A100905B7F /* StudentViewModel.swift */,
 				B07E45722EA1C86400905B7F /* AuthViewModel.swift */,
 			);
 			path = ViewModels;
