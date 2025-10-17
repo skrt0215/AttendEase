@@ -24,6 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B07E45692EA1C28900905B7F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B07FD11A2CF5172C00CCC338 /* Attendance Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Attendance Scanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B07FD12B2CF5172E00CCC338 /* Attendance ScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Attendance ScannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B07FD1352CF5172E00CCC338 /* Attendance ScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Attendance ScannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,9 +73,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B07E45602EA1C21B00905B7F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B07E45692EA1C28900905B7F /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B07E45612EA1C22100905B7F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B07E45632EA1C23600905B7F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B07E45642EA1C24200905B7F /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		B07E45652EA1C24800905B7F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B07E45682EA1C26C00905B7F /* Auth */,
+				B07E45672EA1C26400905B7F /* Professor */,
+				B07E45662EA1C25F00905B7F /* Student */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B07E45662EA1C25F00905B7F /* Student */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Student;
+			sourceTree = "<group>";
+		};
+		B07E45672EA1C26400905B7F /* Professor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Professor;
+			sourceTree = "<group>";
+		};
+		B07E45682EA1C26C00905B7F /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
 		B07FD1112CF5172C00CCC338 = {
 			isa = PBXGroup;
 			children = (
+				B07E45652EA1C24800905B7F /* Views */,
+				B07E45642EA1C24200905B7F /* View Models */,
+				B07E45632EA1C23600905B7F /* Services */,
+				B07E45612EA1C22100905B7F /* Models */,
+				B07E45602EA1C21B00905B7F /* Utils */,
 				B07FD11C2CF5172C00CCC338 /* Attendance Scanner */,
 				B07FD12E2CF5172E00CCC338 /* Attendance ScannerTests */,
 				B07FD1382CF5172E00CCC338 /* Attendance ScannerUITests */,
