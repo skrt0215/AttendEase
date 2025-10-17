@@ -47,6 +47,7 @@
 		B07E457B2EA1CDDF00905B7F /* ProfessorHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorHomeView.swift; sourceTree = "<group>"; };
 		B07E457C2EA1CE0900905B7F /* CreateCourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCourseView.swift; sourceTree = "<group>"; };
 		B07E457D2EA1CE6A00905B7F /* AttendanceReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceReportView.swift; sourceTree = "<group>"; };
+		B07E45852EA1D2A100905B7F /* StudentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViewModel.swift; sourceTree = "<group>"; };
 		B07FD11A2CF5172C00CCC338 /* Attendance Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Attendance Scanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B07FD12B2CF5172E00CCC338 /* Attendance ScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Attendance ScannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B07FD1352CF5172E00CCC338 /* Attendance ScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Attendance ScannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,6 +131,7 @@
 		B07E45642EA1C24200905B7F /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				B07E45852EA1D2A100905B7F /* StudentViewModel.swift */,
 				B07E45752EA1CC0200905B7F /* ProfessorViewModel.swift */,
 				B07E45722EA1C86400905B7F /* AuthViewModel.swift */,
 			);
