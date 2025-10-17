@@ -8,14 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var authViewModel = AuthViewModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Welcome! Please login.")
+        Group {
+            if authViewModel.isLoading {
+                ProgressView()
+            } else if authViewModel.isAuthenticated, let user = authViewModel.currentUser {
+                if user.isStudent {
+                    StudentHomeView()
+                        .environmentObject(authViewModel)
+                } else if user.isProfessor {
+                    ProfessorHomeView()
+                        .environmentObject(authViewModel)
+                }
+            } else {
+                LoginView()
+                    .environmentObject(authViewModel)
+            }
         }
-        .padding()
     }
 }
 
